@@ -21,7 +21,7 @@ import com.iban.service.IBANService;
 @RestController
 @RequestMapping("/api")
 @CrossOrigin(allowedHeaders = { "*", "*/" }, origins = { "*", "*/" })
-public class IBANController {
+public class IbanController {
 	
 	
 	@Autowired

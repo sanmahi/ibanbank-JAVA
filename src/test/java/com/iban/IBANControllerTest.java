@@ -12,7 +12,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.iban.controller.IBANController;
+import com.iban.controller.IbanController;
 import com.iban.dto.IBANReqDTO;
 import com.iban.dto.IBANResDTO;
 import com.iban.service.IBANServiceImpl;
@@ -28,7 +28,7 @@ public class IBANControllerTest {
 	IBANServiceImpl iBANServiceImpl;
 	
 	@InjectMocks
-	IBANController IbanController;
+	IbanController IbanController;
 	
 	
 	
