@@ -29,7 +29,7 @@ public class IbanController {
 	
 	@PostMapping("/verify")
 	public ResponseEntity<IBANResDTO> verifyIBAN(@RequestBody IBANReqDTO ibanReq){
-		return new ResponseEntity<IBANResDTO>(ibanService.verifyIBAN(ibanReq), HttpStatus.OK);
+		return new ResponseEntity<>(ibanService.verifyIBAN(ibanReq), HttpStatus.OK);
 	}
 
 }

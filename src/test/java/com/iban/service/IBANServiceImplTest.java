@@ -53,5 +53,11 @@ public class IBANServiceImplTest {
 		IBANResDTO actual = iBANServiceImpl.verifyIBAN(iBANReqDTO);
 		assertEquals(iBANResDTO.getStatusCode().intValue(), actual.getStatusCode().intValue());
 	}
+	
+	@Test
+	public void testException() {
+		
+		
+	}
 
 }
