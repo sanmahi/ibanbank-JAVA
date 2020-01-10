@@ -15,10 +15,6 @@
 	<name>IBANBank</name>
 	<description>Demo project for Spring Boot</description>
 	
-	<properties>
-		<java.version>1.8</java.version>
-		<sonar.host.url>http://18.223.196.92:9000/</sonar.host.url>
-	</properties>
 	
 	<dependencies>
 		<dependency>
@@ -111,6 +107,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<sonar.host.url>http://18.223.196.92:9000/</sonar.host.url>
 		<sonar.coverage.exclusions>**/entity/*
 			,**/dto/*,**/api/*,**/util/*,**/exception/*</sonar.coverage.exclusions>
 	</properties>
