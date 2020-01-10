@@ -14,6 +14,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>IBANBank</name>
 	<description>Demo project for Spring Boot</description>
+	
+	<properties>
+		<java.version>1.8</java.version>
+                <sonar.host.url>http://52.14.100.205:9000/</sonar.host.url>
+	</properties>
+		
 
 	<dependencies>
 		<dependency>
@@ -67,7 +73,13 @@
 			<version>3.6.0.1398</version>
 			<type>pom</type>
 		</dependency>
-	</dependencies>
+	</dependencies>    
+	<distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://52.14.100.205:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 
 	<build>
 		<plugins>
