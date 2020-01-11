@@ -71,17 +71,13 @@
 	</dependencies>
 	
 	<distributionManagement>
-             <repository>
-                 <id>deployment</id>
-                 <name>Internal Releases</name>
-                 <url>http://3.135.210.255:8081/nexus/content/repositories/990/</url>
-              </repository>
-              <snapshotRepository>
-                  <id>deployment</id>
-                  <name>Internal Snapshot Releases</name>
-                  <url>http://3.135.210.255:8081/nexus/content/repositories/99/</url>
-              </snapshotRepository>
-        </distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://3.135.210.255:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
+	
+	
 	
 	
 
