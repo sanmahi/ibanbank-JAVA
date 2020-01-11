@@ -68,24 +68,15 @@
 			<version>3.6.0.1398</version>
 			<type>pom</type>
 		</dependency>
-	</dependencies>    
-<distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
-    <repository>
+	</dependencies>
+	
+	<distributionManagement>
+          <snapshotRepository>
             <id>nexus</id>
-            <name>Internal Releases</name>
-            <url>http://3.135.210.255:8081/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus</id>
-            <name>Internal Snapshot Releases</name>
             <url>http://3.135.210.255:8081/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-</distributionManagement>
+          </snapshotRepository>
+        </distributionManagement>
+
 
 	<build>
 		<plugins>
