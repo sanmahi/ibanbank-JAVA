@@ -73,7 +73,7 @@
 	<distributionManagement>
   <snapshotRepository>
     <id>snapshots</id>
-    <url>http://3.135.210.255:8081/nexus/content/repositories/snapshots</url>
+    <url>http://18.222.15.115:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 	
@@ -122,7 +122,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<sonar.host.url>http://3.135.210.255:9000/</sonar.host.url>
+		<sonar.host.url>http://18.222.15.115:9000/</sonar.host.url>
 		<sonar.coverage.exclusions>**/entity/*
 			,**/dto/*,**/api/*,**/util/*,**/exception/*</sonar.coverage.exclusions>
 	</properties>
