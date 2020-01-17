@@ -72,7 +72,7 @@
 	
 	<distributionManagement>
     <snapshotRepository>
-        <id>nexus</id>
+        <id>snapshots</id>
         <url>http://18.223.207.72:8081/nexus/content/repositories/snapshots</url>
        </snapshotRepository>
     </distributionManagement>
@@ -114,7 +114,7 @@
       </execution>
    </executions>
    <configuration>
-      <serverId>nexus</serverId>
+      <serverId>snapshots</serverId>
       <nexusUrl>http://18.223.207.72:8081/nexus/content/repositories/snapshots</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
