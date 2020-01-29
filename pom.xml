@@ -121,7 +121,7 @@
    </executions>
    <configuration>
       <serverId>snapshots</serverId>
-      <nexusUrl>http://18.216.180.39:8081/nexus/content/repositories/snapshots</nexusUrl>
+      <nexusUrl>http://54.173.106.175:8081/repository/ibanbank-snapshot/</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
