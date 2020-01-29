@@ -74,12 +74,12 @@
     <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://18.216.180.39:8081/nexus/content/repositories/990/</url>
+            <url>http://54.173.106.175:8081/repository/ibanbank-release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://18.216.180.39:8081/nexus/content/repositories/99/</url>
+            <url>http://54.173.106.175:8081/repository/ibanbank-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 	
